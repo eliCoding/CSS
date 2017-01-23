@@ -1,0 +1,15 @@
+/* author: Elmira Amanollahi  student number:1696258 lab:2*/
+
+body {
+    margin: 3em;
+    padding: 0;    
+}
+body,header,aside,footer,p,h2,h3 {
+    font-family: "times new roman", serif;
+    font-size: 12pt;
+}
+#salebox {
+    display:none;
+}
+img { display:none;}
+

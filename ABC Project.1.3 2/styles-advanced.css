@@ -1,0 +1,56 @@
+
+body {
+  overflow: hidden;   
+}
+form {
+  position: relative;
+  top: 250%;
+  width:auto;
+  transform: translateX(15%);
+  transform-style: preserve-3d;
+    margin-top: 25%;
+}
+input {
+  visibility: hidden;
+  position: absolute;
+  counter-increment: input;
+}
+input:checked {
+  counter-increment: checked;
+}
+label {
+  display: block;
+  position: absolute;
+  bottom: 100%;
+  transform-origin: 0 105%; 
+  transition: transform 1s cubic-bezier(0, 2, 0.2, 1); 
+}
+a {
+  display: block;
+  width: 170px;
+  text-decoration: none;
+  margin-right: 100px; 
+}
+ label a {
+  display: block;
+  width: 170px;
+  border: 10px groove #ED254E;
+border-radius: 15px;
+  text-decoration: none;
+  margin-right: 100px;
+  margin-bottom: 10px;
+     font-size: 12px;
+     font-weight: bolder;  
+}
+  #img1 {
+     width:400px;
+     height:250px;
+     margin-top:50px;
+     poition:fixed;
+ }
+  #img1:hover {
+      transform:rotate(1turn);
+      transition:transform 2s;
+  }
+
+     

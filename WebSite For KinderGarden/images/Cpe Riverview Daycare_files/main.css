@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Butterfly+Kids');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+@import url('https://fonts.googleapis.com/css?family=Coiny|Dancing+Script|Handlee');
+
+
+body{
+    background-color:#F7EDF0;
+
+}
+#container {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 32px;
+}
+
+header
+{
+    position:center;
+    background-color: #F4AFAB;
+    height: 150px;
+    padding: 4px;
+    font-family: 'Butterfly Kids', cursive;
+    text-align:center;
+    font-size: 5em;
+    color:#6A383B;
+
+}
+aside nav ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+
+}
+
+
+    
+
+li a {
+    display: block;
+    color: darkcyan;
+  
+    text-decoration:none;
+    border:2px solid; 
+    border-radius: 30px;
+    background-color:#C1F7DC;
+    font-size: 33px;
+    width: 100px;
+    
+}
+li a:hover {
+    background-color: #555;
+    color: white;
+    width: 100px;
+
+}
+
+#leftsidebar {
+     width:150px;
+    margin:0 0 10px 0;
+    padding:5px;
+    background-color:#F7567C;
+    height:800px;
+    float:left;
+    font-family:'Handlee', cursive;;
+    color: white;
+    
+    
+    
+}
+
+main {
+    height: 800px;
+    background-color: #F4CBC6;
+    font-family: 'Indie Flower', cursive;
+    
+      width:630px;
+    margin:0 0 10px 0;
+    padding:5px;
+    float:left;
+
+    
+}
+
+main h1 {
+    text-align: center;
+    color: #E54B4B;
+    font-size: 55px;
+    padding: 5px 5px 0 25px;
+}
+
+main p {
+    text-align: justify;
+    padding: 5px 5px 0 25px;
+    text-indent: 50px;
+    font-size: 1.2em;
+}
+
+main p::first-letter{
+    font-size:3em;
+    color:#F4F482;
+}
+
+#rightsidebar {
+    width:150px;
+    margin:0 0 10px 0;
+    padding:5px;
+    background-color:#F7567C;
+    height:800px;
+    float:right;
+    color: white;
+    font-family:'Handlee', cursive;
+    font-size: 20px;  
+}
+
+
+
+
+
+footer {
+    max-width: 960px;
+    padding: 4px;
+    height: 210px;
+    background-color:#F4CBC6 ;
+    border-top:20px solid white;
+    clear: both;
+}
+
+footer address {
+    color:#9E5458;
+    text-align: center;
+    font-size: 22px;
+    padding: 5px 5px 0 25px;
+    
+}
+
+footer img {
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}

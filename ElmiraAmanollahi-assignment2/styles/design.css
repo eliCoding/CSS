@@ -1,0 +1,117 @@
+/* author: Elmira Amanollahi  student number:1696258 lab:2*/
+
+body {
+    margin: 0;
+    padding: 0;    
+}
+
+section {
+    width: 775px;
+    margin-left: 100px;
+    font-family: "lucida sans unicode","helvetica", sans-serif;
+    background-color: #1696ee;
+    color: navy;
+    font-size: 11pt;
+    overflow:auto;
+}
+header { 
+    background-image:url(../images/keys.jpg);
+    background-repeat: repeat-x;
+    width: 765px;
+    height: 100px;
+    margin-top:0;
+    margin-bottom:10px;
+    font-weight: bold;
+    font-size: 2em;   
+    background-color: white;
+    border: navy;
+    border-style: solid;
+    border-width: thick;  
+}
+section header p {
+
+    margin-top: 0;
+    text-align: center;
+}
+aside { 
+         border: red;
+         border-width: thick;
+          border-style: inset;
+         padding: .05em 0.5em 0.5em 1em; 
+         font-weight: bold;
+         color: white;
+         background-color: black;  
+         float: left;
+         overflow: hidden;
+           background-image: url(../images/curtains.jpg);
+       background-repeat: no-repeat; }
+
+aside h3 {
+    width: 250px;
+    color: white;
+    text-align: center;
+    background-color: navy;
+    padding:0.2em 1em;}
+aside h3 + p {text-align: center;}
+#salebox  { 
+       position: absolute;
+       top: 2px;
+       left:105px;
+      height: 100px;
+      width: 140px;
+      overflow: auto;
+      color: orange;
+      font-size: 14pt;
+      font-weight: bold;
+      margin: 5px; 
+      z-index:1;
+}
+  
+article { 
+    width: 420px;
+    float: right;
+    margin-bottom:80px;
+}
+article h2 {
+    text-align: center;
+    color: white;
+    background-color: navy;
+    font-family: "arial-black", sans-serif;
+    height: 60px;
+    padding: .3em;
+    margin-top: 0;
+    
+}
+article h3 { 
+     color: white;
+    text-align: center;
+    background-color: red;
+    padding: .5em;
+    margin: 0;
+}
+
+article p { 
+       text-align: justify;
+    padding-right: 1em;
+}
+
+footer { 
+    height: 50px;
+    position:fixed;
+    bottom: 0;
+    color: black;
+    background: white;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    word-spacing: .2em;
+    border: navy;
+    border-style: inset;
+    border-width: thin;
+    width: 100%;
+    margin-left:-100px;
+    margin-top:.5em;
+    padding:.5em .5em .5em 100px;
+  
+
+        
+}
